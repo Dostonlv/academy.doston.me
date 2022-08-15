@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+   background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+  }
+  .card {
+    height: 400px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans-serif;
+  }
+  .card-img {
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    margin: 30px auto 20px auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+  }
+  .card-img img {
+    height: 86%;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-top: 7%;
+  }
+  .desc {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+  }
+  .primary-text {
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin: 5px 0;
+  }
+  .secondary-text {
+    color: #d5d5d5;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  .details {
+    display: grid;
+    width: 100%;
+    height: 70px;
+    grid-template-columns: auto auto;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 25px 25px;
+    padding: 5px 0;
+  }
+  .details > div {
+    text-align: center;
+  }
+  .details > div:first-child {
+    border-right: 2px solid rgba(255, 255, 255, 0.08);
+  }
+  button {
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 240px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 0;
+  }
+  
